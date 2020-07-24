@@ -1,0 +1,70 @@
+@import _variables
+
+.navbar
+    margin: 0
+    padding: 0
+
+    .nav-menu
+        height: 5rem
+        margin: 0 4rem
+        padding: 0
+        overflow: hidden
+
+        .logo-link
+            float: left
+            margin: 0 7rem 0 0
+            padding: 0
+
+            .logo
+                margin: 0
+                padding: 0
+                &::before
+                    content: ''
+                    display: inline-block
+                    width: 8rem
+                    height: 5rem
+                    background: url('../src/logo-kolumna.svg')
+                    margin: 0
+                    padding: 0
+
+        .menu-items
+            float: left
+            margin: 2rem 0 0 0
+            padding: 0
+            display: flex
+
+            .item
+                text-decoration: none
+                font-size: 1.25rem
+                color: $mainColor
+                margin: 0 1rem
+                padding: 0.3rem 0
+                border-bottom: 0.06rem solid transparent 
+                &:hover
+                    border-bottom: 0.06rem solid $mainColor
+                    transition: .3s ease
+
+        .rrss
+            float: right
+            margin: 2rem 0 0 0
+            padding: 0
+
+            .rrss-link
+                text-decoration: none
+                margin: 0
+                padding: 0
+
+                .fa-facebook
+                    color: $facebook
+                    font-size: 1.5rem
+                    margin: 0
+
+                .fa-youtube
+                    color: $youtube
+                    font-size: 1.5rem
+                    margin: 0 1.5rem
+
+                .fa-instagram
+                    color: $instagram
+                    font-size: 1.5rem
+                    margin: 0
