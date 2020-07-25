@@ -1,0 +1,34 @@
+// Guidelines:
+// font weight 400 - regular mr-eaves-modern
+// font weight 700 - bold mr-eaves-modern
+// font weight 800 - heavy mr-eaves-modern
+// font weight 700 - bold lato
+// font weight 900 - black lato
+// line-height must multiply 1.3
+// button padding CTA: 18px up-down, 32px side-side
+// button padding medium: 16px up-down, 24px side-side
+// button padding small: 8px up-down, 16px side-side
+// button font size: 18px
+
+@mixin titles($fontsize)
+    font-family: 'Lato', sans-serif
+    font-size: $fontsize
+    font-weight: 900
+    color: $mainColor
+
+@mixin paragraphs
+    font-size: 1.125rem
+    color: $mainColor
+    line-height: 1.3
+
+@mixin btnCTA($padding1, $padding2)
+    background: $accentColor
+    font-size: 1.125rem
+    color: #ffffff
+    padding: $padding1 $padding2
+    border: 0
+    border-radius: 0.5rem
+    cursor: pointer
+    outline: 0
+    &:hover
+        background: #ff7632
