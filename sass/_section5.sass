@@ -1,0 +1,35 @@
+@use titles
+@use paragraphs
+
+.descripcion-video
+    height: 100vh
+    margin: 0 4rem
+    padding: 8rem 0 0 0
+    box-sizing: border-box
+    display: flex
+    flex-wrap: wrap
+    align-content: flex-start
+    justify-content: center
+
+    .text
+        width: 100%
+        margin: 0 0 4rem 0
+        padding: 0 5rem 0 10rem
+        box-sizing: border-box
+        display: flex
+        justify-content: space-between
+
+        .text-1
+            @include paragraphs
+            width: 32rem
+            margin: 0
+            padding: 0
+
+        .text-2
+            @include paragraphs
+            width: 24rem
+            margin: 0
+            padding: 0
+
+    iframe
+        width: 43.5rem
