@@ -1,0 +1,38 @@
+@use titles
+@use paragraphs
+
+.text-imgs
+    height: 100vh
+    margin: 17rem 4rem 0 4rem
+    padding: 3rem 0
+    box-sizing: border-box
+    position: relative
+
+    .descripcion
+        width: 44rem
+        margin: 0 0 0 30rem
+
+        .descripcion-text
+            @include paragraphs
+            margin: 0
+            padding: 0
+
+    .imgs
+        width: 100%
+        margin: 5rem 0 0 0
+        display: flex
+        flex-wrap: wrap
+        align-items: center
+        justify-content: space-between
+
+        .img4
+            width: 25rem
+            height: 31rem
+            object-fit: cover
+            object-position: center
+
+        .img5
+            width: 39rem
+            height: 26rem
+            object-fit: cover
+            object-position: center
