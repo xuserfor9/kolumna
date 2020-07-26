@@ -1,0 +1,223 @@
+@use titles
+@use paragraphs
+
+footer
+    background: $mainColor
+    width: 100%
+    height: 100vh
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    display: flex
+    flex-wrap: wrap
+    align-content: center
+
+    .box-margin
+        width: 100%
+        margin: 0 4rem 4rem 4rem
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+
+        .mapa-sitio
+            width: 14rem
+
+            .titulo-mapa-sitio
+                width: 100%
+                font-family: 'Lato', sans-serif
+                font-size: 2rem
+                font-weight: 900
+                color: #ffffff
+                margin: 0 0 3rem 0
+                padding: 0
+
+            .nav-bar-vertical
+                display: flex
+                flex-direction: column
+                flex-wrap: wrap
+                margin: 0 0 1.8rem 0
+
+                .item-menu
+                    text-decoration: none
+                    font-size: 1.25rem
+                    color: #ffffff
+                    margin: 0 0 1.5rem 0
+
+            .rrss
+                display: flex
+
+                a 
+                    text-decoration: none
+                    margin: 0 1.5rem 0 0
+
+                    .fa-facebook
+                        color: #ffffff
+                        font-size: 1.5rem
+
+                    .fa-youtube
+                        color: #ffffff
+                        font-size: 1.5rem
+
+                    .fa-instagram
+                        color: #ffffff
+                        font-size: 1.5rem
+
+        .informacion-contacto
+            width: 28rem
+
+            .titulo-informacion
+                width: 100%
+                font-family: 'Lato', sans-serif
+                font-size: 2rem
+                font-weight: 900
+                color: #ffffff
+                margin: 0 0 3rem 0
+                padding: 0
+
+            .informacion
+                width: 100%
+
+                .whatsapp
+                    margin: 0 0 1.5rem 0
+                    display: flex
+                    align-items: center
+
+                    .icon-whatsapp
+                        margin: 0
+                        padding: 0
+                        &::before
+                            content: ''
+                            width: 1.5rem
+                            height: 1.5rem
+                            display: block
+                            background: url('../src/whatsapp.svg')
+                            background-repeat: no-repeat
+                            background-size: cover
+                            background-position: center
+
+                    .numero
+                        font-size: 1.2rem
+                        color: #ffffff
+                        margin: 0 0 0 1rem
+                        padding: 0
+
+                .email
+                    margin: 0 0 1.5rem 0
+                    display: flex
+                    align-items: center
+
+                    .icon-email
+                        margin: 0
+                        padding: 0
+                        &::before
+                            content: ''
+                            width: 1.5rem
+                            height: 1.5rem
+                            display: block
+                            background: url('../src/email.svg')
+                            background-repeat: no-repeat
+                            background-size: contain
+                            background-position: center
+
+                    .inbox
+                        font-size: 1.2rem
+                        color: #ffffff
+                        margin: 0 0 0 1rem
+                        padding: 0
+
+                .address
+                    margin: 0 0 1.5rem 0
+                    display: flex
+                    align-items: flex-start
+
+                    .icon-address
+                        margin: 0
+                        padding: 0
+                        &::before
+                            content: ''
+                            width: 1.5rem
+                            height: 1.5rem
+                            display: block
+                            background: url('../src/address.svg')
+                            background-repeat: no-repeat
+                            background-size: contain
+                            background-position: center
+
+                    .location
+                        font-size: 1.2rem
+                        color: #ffffff
+                        margin: 0 0 0 1rem
+                        padding: 0
+
+        .formulario-contacto
+            width: 28rem
+
+            .titulo
+                width: 100%
+                font-family: 'Lato', sans-serif
+                font-size: 2rem
+                font-weight: 900
+                color: #ffffff
+                margin: 0 0 3rem 0
+                padding: 0
+
+            .formulario
+                width: 100%
+                display: flex
+                flex-wrap: wrap
+                justify-content: space-between
+
+                input[type="text"]
+                    background: none
+                    width: 47%
+                    border-radius: 0.2rem
+                    border: 1px solid #ffffff
+                    outline: 0
+                    margin: 0 0 1.5rem 0
+                    padding: 0.8rem 1rem
+                    box-sizing: border-box
+                    color: #ffffff
+                    &::placeholder
+                        color: #cfcfcf
+
+                textarea[name="mensaje"]
+                    background: none
+                    min-width: 100%
+                    max-width: 100%
+                    min-height: 5rem
+                    max-height: 21rem
+                    border-radius: 0.2rem
+                    border: 1px solid #ffffff
+                    outline: 0
+                    margin: 0 0 2rem 0
+                    padding: 0.8rem 1rem
+                    box-sizing: border-box
+                    color: #ffffff
+                    &::placeholder
+                        color: #cfcfcf
+
+                input[type="button"]
+                    background: #ff7632
+                    width: 100%
+                    border-radius: 0.5rem
+                    border: 0
+                    outline: 0
+                    margin: 0
+                    padding: 1rem 0
+                    cursor: pointer
+                    color: #ffffff
+                    font-size: 1.5rem
+                    &:hover
+                        background: #fd8143
+
+    .copyright
+        width: 100%
+        font-family: 'Lato', sans-serif
+        text-align: center
+        font-size: 1.125rem
+        font-weight: 700
+        color: #ffffff
+        line-height: 1.3
+        margin: 0 4rem
+        padding: 0
+        box-sizing: border-box
