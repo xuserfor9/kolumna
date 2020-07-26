@@ -1,0 +1,39 @@
+@use titles
+@use paragraphs
+
+.covid-19
+    height: 100vh
+    display: flex
+    flex-wrap: wrap
+    align-content: center
+    justify-content: center
+
+    .icon-alert
+        margin: 0 0 3.25rem 0
+        padding: 0
+        &::after
+            content: ''
+            display: inline-block
+            width: 7rem
+            height: 6.25rem
+            background: url('../src/alert-icon.svg')
+            background-repeat: no-repeat
+            background-size: cover
+            background-position: center
+
+    .title-covid
+        font-family: mr-eaves-modern, sans-serif
+        font-size: 5rem
+        font-weight: 900
+        text-align: center
+        line-height: 1
+        width: 100%
+        margin: 0 0 3.25rem 0
+        padding: 0
+
+    .text
+        @include titles(1.5rem)
+        text-align: center
+        width: 100%
+        margin: 0
+        padding: 0
