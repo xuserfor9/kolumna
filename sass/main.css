@@ -194,4 +194,692 @@ body {
   -webkit-transform: translate(0, 5rem);
           transform: translate(0, 5rem);
 }
+
+@use titles {}@use paragraphs {}.servicios {
+  height: 200vh;
+  margin: 0 4rem;
+  padding: 12.5rem 0 0 5.125rem;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.servicios .titulo-descripcion {
+  width: 44rem;
+  margin: 0 0 6rem 0;
+  padding: 0;
+}
+
+.servicios .titulo-descripcion .nuestros-servicios {
+  font-family: 'Lato', sans-serif;
+  font-size: 4rem;
+  font-weight: 900;
+  color: #164372;
+  width: 100%;
+  margin: 0 0 3.5rem 0;
+  padding: 0;
+}
+
+.servicios .titulo-descripcion .descripcion {
+  font-size: 1.125rem;
+  color: #164372;
+  line-height: 1.3;
+  margin: 0;
+  padding: 0;
+}
+
+.servicios .cards-servicios {
+  position: absolute;
+  width: 100%;
+  -webkit-transform: translate(-5.1rem, 0);
+          transform: translate(-5.1rem, 0);
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.servicios .cards-servicios .card_1 {
+  width: 19.5rem;
+  margin: 0 0 8rem 0;
+  padding: 2rem 2.5rem 2.5rem 2.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0.9rem;
+  -webkit-box-shadow: 0 1rem 3rem 0.09rem rgba(100, 100, 100, 0.3);
+          box-shadow: 0 1rem 3rem 0.09rem rgba(100, 100, 100, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.servicios .cards-servicios .card_1:hover {
+  -webkit-transform: translate(0, -1rem);
+          transform: translate(0, -1rem);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.servicios .cards-servicios .card_1 .icon-card_1 {
+  margin: 0;
+  padding: 0;
+  margin: 0 0 1.75rem 0;
+  padding: 0;
+}
+
+.servicios .cards-servicios .card_1 .icon-card_1::after {
+  content: '';
+  background: url("../src/cuello.svg");
+  background-size: cover;
+  background-position: center;
+  width: 6rem;
+  height: 6rem;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.servicios .cards-servicios .card_1 .titulo-card_1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #164372;
+  width: 100%;
+  margin: 0 0 1.5rem 0;
+  padding: 0;
+}
+
+.servicios .cards-servicios .card_1 .descripcion-card_1 {
+  font-size: 1.125rem;
+  color: #164372;
+  line-height: 1.3;
+  margin: 0 0 2.5rem 0;
+  padding: 0;
+  width: 100%;
+}
+
+.servicios .cards-servicios .card_1 .link-button {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.servicios .cards-servicios .card_1 .link-button .link {
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+  color: #164372;
+}
+
+.servicios .cards-servicios .card_1 .link-button input[type="button"] {
+  background: #e56b2d;
+  font-size: 1.125rem;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  outline: 0;
+}
+
+.servicios .cards-servicios .card_1 .link-button input[type="button"]:hover {
+  background: #ff7632;
+}
+
+.servicios .cards-servicios .card_2 {
+  width: 19.5rem;
+  margin: 0 0 8rem 0;
+  padding: 2rem 2.5rem 2.5rem 2.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0.9rem;
+  -webkit-box-shadow: 0 1rem 3rem 0.09rem rgba(100, 100, 100, 0.3);
+          box-shadow: 0 1rem 3rem 0.09rem rgba(100, 100, 100, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.servicios .cards-servicios .card_2:hover {
+  -webkit-transform: translate(0, -1rem);
+          transform: translate(0, -1rem);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.servicios .cards-servicios .card_2 .icon-card_2 {
+  margin: 0;
+  padding: 0;
+  margin: 0 0 1.75rem 0;
+  padding: 0;
+}
+
+.servicios .cards-servicios .card_2 .icon-card_2::after {
+  content: '';
+  background: url("../src/espalda.svg");
+  background-size: cover;
+  background-position: center;
+  width: 6rem;
+  height: 6rem;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.servicios .cards-servicios .card_2 .titulo-card_2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #164372;
+  width: 100%;
+  margin: 0 0 1.5rem 0;
+  padding: 0;
+}
+
+.servicios .cards-servicios .card_2 .descripcion-card_2 {
+  font-size: 1.125rem;
+  color: #164372;
+  line-height: 1.3;
+  margin: 0 0 2.5rem 0;
+  padding: 0;
+  width: 100%;
+}
+
+.servicios .cards-servicios .card_2 .link-button {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.servicios .cards-servicios .card_2 .link-button .link {
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+  color: #164372;
+}
+
+.servicios .cards-servicios .card_2 .link-button input[type="button"] {
+  background: #e56b2d;
+  font-size: 1.125rem;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  outline: 0;
+}
+
+.servicios .cards-servicios .card_2 .link-button input[type="button"]:hover {
+  background: #ff7632;
+}
+
+.servicios .cards-servicios .card_3 {
+  width: 19.5rem;
+  margin: 0 0 8rem 0;
+  padding: 2rem 2.5rem 2.5rem 2.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0.9rem;
+  -webkit-box-shadow: 0 1rem 3rem 0.09rem rgba(100, 100, 100, 0.3);
+          box-shadow: 0 1rem 3rem 0.09rem rgba(100, 100, 100, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.servicios .cards-servicios .card_3:hover {
+  -webkit-transform: translate(0, -1rem);
+          transform: translate(0, -1rem);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.servicios .cards-servicios .card_3 .icon-card_3 {
+  margin: 0;
+  padding: 0;
+  margin: 0 0 1.75rem 0;
+  padding: 0;
+}
+
+.servicios .cards-servicios .card_3 .icon-card_3::after {
+  content: '';
+  background: url("../src/hernia.svg");
+  background-size: cover;
+  background-position: center;
+  width: 6rem;
+  height: 6rem;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.servicios .cards-servicios .card_3 .titulo-card_3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #164372;
+  width: 100%;
+  margin: 0 0 1.5rem 0;
+  padding: 0;
+}
+
+.servicios .cards-servicios .card_3 .descripcion-card_3 {
+  font-size: 1.125rem;
+  color: #164372;
+  line-height: 1.3;
+  margin: 0 0 2.5rem 0;
+  padding: 0;
+  width: 100%;
+}
+
+.servicios .cards-servicios .card_3 .link-button {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.servicios .cards-servicios .card_3 .link-button .link {
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+  color: #164372;
+}
+
+.servicios .cards-servicios .card_3 .link-button input[type="button"] {
+  background: #e56b2d;
+  font-size: 1.125rem;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  outline: 0;
+}
+
+.servicios .cards-servicios .card_3 .link-button input[type="button"]:hover {
+  background: #ff7632;
+}
+
+.servicios .cards-servicios .card_4 {
+  width: 19.5rem;
+  margin: 0 0 8rem 0;
+  padding: 2rem 2.5rem 2.5rem 2.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0.9rem;
+  -webkit-box-shadow: 0 1rem 3rem 0.09rem rgba(100, 100, 100, 0.3);
+          box-shadow: 0 1rem 3rem 0.09rem rgba(100, 100, 100, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.servicios .cards-servicios .card_4:hover {
+  -webkit-transform: translate(0, -1rem);
+          transform: translate(0, -1rem);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.servicios .cards-servicios .card_4 .icon-card_4 {
+  margin: 0;
+  padding: 0;
+  margin: 0 0 1.75rem 0;
+  padding: 0;
+}
+
+.servicios .cards-servicios .card_4 .icon-card_4::after {
+  content: '';
+  background: url("../src/escoliosis.svg");
+  background-size: cover;
+  background-position: center;
+  width: 6rem;
+  height: 6rem;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.servicios .cards-servicios .card_4 .titulo-card_4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #164372;
+  width: 100%;
+  margin: 0 0 1.5rem 0;
+  padding: 0;
+}
+
+.servicios .cards-servicios .card_4 .descripcion-card_4 {
+  font-size: 1.125rem;
+  color: #164372;
+  line-height: 1.3;
+  margin: 0 0 2.5rem 0;
+  padding: 0;
+  width: 100%;
+}
+
+.servicios .cards-servicios .card_4 .link-button {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.servicios .cards-servicios .card_4 .link-button .link {
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+  color: #164372;
+}
+
+.servicios .cards-servicios .card_4 .link-button input[type="button"] {
+  background: #e56b2d;
+  font-size: 1.125rem;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  outline: 0;
+}
+
+.servicios .cards-servicios .card_4 .link-button input[type="button"]:hover {
+  background: #ff7632;
+}
+
+.servicios .cards-servicios .card_5 {
+  width: 19.5rem;
+  margin: 0 0 8rem 0;
+  padding: 2rem 2.5rem 2.5rem 2.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0.9rem;
+  -webkit-box-shadow: 0 1rem 3rem 0.09rem rgba(100, 100, 100, 0.3);
+          box-shadow: 0 1rem 3rem 0.09rem rgba(100, 100, 100, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.servicios .cards-servicios .card_5:hover {
+  -webkit-transform: translate(0, -1rem);
+          transform: translate(0, -1rem);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.servicios .cards-servicios .card_5 .icon-card_5 {
+  margin: 0;
+  padding: 0;
+  margin: 0 0 1.75rem 0;
+  padding: 0;
+}
+
+.servicios .cards-servicios .card_5 .icon-card_5::after {
+  content: '';
+  background: url("../src/ciatica.svg");
+  background-size: cover;
+  background-position: center;
+  width: 6rem;
+  height: 6rem;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.servicios .cards-servicios .card_5 .titulo-card_5 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #164372;
+  width: 100%;
+  margin: 0 0 1.5rem 0;
+  padding: 0;
+}
+
+.servicios .cards-servicios .card_5 .descripcion-card_5 {
+  font-size: 1.125rem;
+  color: #164372;
+  line-height: 1.3;
+  margin: 0 0 2.5rem 0;
+  padding: 0;
+  width: 100%;
+}
+
+.servicios .cards-servicios .card_5 .link-button {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.servicios .cards-servicios .card_5 .link-button .link {
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+  color: #164372;
+}
+
+.servicios .cards-servicios .card_5 .link-button input[type="button"] {
+  background: #e56b2d;
+  font-size: 1.125rem;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  outline: 0;
+}
+
+.servicios .cards-servicios .card_5 .link-button input[type="button"]:hover {
+  background: #ff7632;
+}
+
+.servicios .cards-servicios .card_6 {
+  width: 19.5rem;
+  margin: 0 0 8rem 0;
+  padding: 2rem 2.5rem 2.5rem 2.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0.9rem;
+  -webkit-box-shadow: 0 1rem 3rem 0.09rem rgba(100, 100, 100, 0.3);
+          box-shadow: 0 1rem 3rem 0.09rem rgba(100, 100, 100, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.servicios .cards-servicios .card_6:hover {
+  -webkit-transform: translate(0, -1rem);
+          transform: translate(0, -1rem);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.servicios .cards-servicios .card_6 .icon-card_6 {
+  margin: 0;
+  padding: 0;
+  margin: 0 0 1.75rem 0;
+  padding: 0;
+}
+
+.servicios .cards-servicios .card_6 .icon-card_6::after {
+  content: '';
+  background: url("../src/pregnant.svg");
+  background-size: cover;
+  background-position: center;
+  width: 6rem;
+  height: 6rem;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.servicios .cards-servicios .card_6 .titulo-card_6 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #164372;
+  width: 100%;
+  margin: 0 0 1.5rem 0;
+  padding: 0;
+}
+
+.servicios .cards-servicios .card_6 .descripcion-card_6 {
+  font-size: 1.125rem;
+  color: #164372;
+  line-height: 1.3;
+  margin: 0 0 2.5rem 0;
+  padding: 0;
+  width: 100%;
+}
+
+.servicios .cards-servicios .card_6 .link-button {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.servicios .cards-servicios .card_6 .link-button .link {
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+  color: #164372;
+}
+
+.servicios .cards-servicios .card_6 .link-button input[type="button"] {
+  background: #e56b2d;
+  font-size: 1.125rem;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  outline: 0;
+}
+
+.servicios .cards-servicios .card_6 .link-button input[type="button"]:hover {
+  background: #ff7632;
+}
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,212 @@
+@import _variables
+@import _mixins-guidelines
+@use titles 
+@use paragraphs
+
+.servicios
+    height: 200vh
+    margin: 0 4rem
+    padding: 12.5rem 0 0 5.125rem
+    position: relative
+    box-sizing: border-box
+
+    .titulo-descripcion
+        width: 44rem
+        margin: 0 0 6rem 0
+        padding: 0
+
+        .nuestros-servicios
+            @include titles(4rem)
+            width: 100%
+            margin: 0 0 3.5rem 0
+            padding: 0
+
+        .descripcion
+            @include paragraphs
+            margin: 0
+            padding: 0
+
+    .cards-servicios
+        position: absolute
+        width: 100%
+        transform: translate(-5.1rem, 0)
+        margin: 0
+        padding: 0
+        box-sizing: border-box
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+
+        .card_1
+            @include service-cardsstyle
+
+            .icon-card_1
+                @include icon-service(url('../src/cuello.svg'))
+                margin: 0 0 1.75rem 0
+                padding: 0
+
+            .titulo-card_1
+                @include titles(1.5rem)
+                width: 100%
+                margin: 0 0 1.5rem 0
+                padding: 0
+
+            .descripcion-card_1
+                @include paragraphs
+                margin: 0 0 2.5rem 0
+                padding: 0
+                width: 100%
+
+            .link-button
+                @include link-button
+
+                .link
+                    @include link
+
+                input[type="button"]
+                    @include btnSmall(0.5rem, 1rem)
+
+        .card_2
+            @include service-cardsstyle
+
+            .icon-card_2
+                @include icon-service(url('../src/espalda.svg'))
+                margin: 0 0 1.75rem 0
+                padding: 0
+
+            .titulo-card_2
+                @include titles(1.5rem)
+                width: 100%
+                margin: 0 0 1.5rem 0
+                padding: 0
+
+            .descripcion-card_2
+                @include paragraphs
+                margin: 0 0 2.5rem 0
+                padding: 0
+                width: 100%
+
+            .link-button
+                @include link-button
+
+                .link
+                    @include link
+
+                input[type="button"]
+                    @include btnSmall(0.5rem, 1rem)
+
+        .card_3
+            @include service-cardsstyle
+
+            .icon-card_3
+                @include icon-service(url('../src/hernia.svg'))
+                margin: 0 0 1.75rem 0
+                padding: 0
+
+            .titulo-card_3
+                @include titles(1.5rem)
+                width: 100%
+                margin: 0 0 1.5rem 0
+                padding: 0
+
+            .descripcion-card_3
+                @include paragraphs
+                margin: 0 0 2.5rem 0
+                padding: 0
+                width: 100%
+
+            .link-button
+                @include link-button
+
+                .link
+                    @include link
+
+                input[type="button"]
+                    @include btnSmall(0.5rem, 1rem)
+
+        .card_4
+            @include service-cardsstyle
+
+            .icon-card_4
+                @include icon-service(url('../src/escoliosis.svg'))
+                margin: 0 0 1.75rem 0
+                padding: 0
+
+            .titulo-card_4
+                @include titles(1.5rem)
+                width: 100%
+                margin: 0 0 1.5rem 0
+                padding: 0
+
+            .descripcion-card_4
+                @include paragraphs
+                margin: 0 0 2.5rem 0
+                padding: 0
+                width: 100%
+
+            .link-button
+                @include link-button
+
+                .link
+                    @include link
+
+                input[type="button"]
+                    @include btnSmall(0.5rem, 1rem)
+
+        .card_5
+            @include service-cardsstyle
+
+            .icon-card_5
+                @include icon-service(url('../src/ciatica.svg'))
+                margin: 0 0 1.75rem 0
+                padding: 0
+
+            .titulo-card_5
+                @include titles(1.5rem)
+                width: 100%
+                margin: 0 0 1.5rem 0
+                padding: 0
+
+            .descripcion-card_5
+                @include paragraphs
+                margin: 0 0 2.5rem 0
+                padding: 0
+                width: 100%
+
+            .link-button
+                @include link-button
+
+                .link
+                    @include link
+
+                input[type="button"]
+                    @include btnSmall(0.5rem, 1rem)
+
+        .card_6
+            @include service-cardsstyle
+
+            .icon-card_6
+                @include icon-service(url('../src/pregnant.svg'))
+                margin: 0 0 1.75rem 0
+                padding: 0
+
+            .titulo-card_6
+                @include titles(1.5rem)
+                width: 100%
+                margin: 0 0 1.5rem 0
+                padding: 0
+
+            .descripcion-card_6
+                @include paragraphs
+                margin: 0 0 2.5rem 0
+                padding: 0
+                width: 100%
+
+            .link-button
+                @include link-button
+
+                .link
+                    @include link
+
+                input[type="button"]
+                    @include btnSmall(0.5rem, 1rem)

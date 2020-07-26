@@ -32,3 +32,59 @@
     outline: 0
     &:hover
         background: #ff7632
+
+@mixin btnSmall($padding1, $padding2)
+    background: $accentColor
+    font-size: 1.125rem
+    color: #ffffff
+    padding: $padding1 $padding2
+    border: 0
+    border-radius: 0.5rem
+    cursor: pointer
+    outline: 0
+    &:hover
+        background: #ff7632
+
+@mixin service-cardsstyle
+    width: 19.5rem
+    margin: 0 0 8rem 0
+    padding: 2rem 2.5rem 2.5rem 2.5rem
+    box-sizing: border-box
+    border-radius: 0.9rem
+    box-shadow: 0 1rem 3rem 0.09rem rgba(100, 100, 100, 0.3)
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    transition: 0.3s ease
+    &:hover
+        transform: translate(0, -1rem)
+        transition: 0.3s ease
+
+@mixin icon-service($icon-services_GoesHere)
+    margin: 0 
+    padding: 0
+    &::after
+        content: ''
+        background: $icon-services_GoesHere
+        background-size: cover
+        background-position: center
+        width: 6rem
+        height: 6rem
+        display: inline-block
+        box-sizing: border-box
+        margin: 0 auto
+        padding: 0
+
+@mixin link-button
+    width: 100%
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: center
+
+@mixin link
+    text-decoration: none
+    font-family: 'Lato', sans-serif
+    font-size: 1rem
+    font-weight: 900
+    color: $mainColor
